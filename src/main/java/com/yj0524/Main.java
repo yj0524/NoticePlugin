@@ -35,7 +35,7 @@ public final class Main extends JavaPlugin {
     }
 
     private void loadConfig() {
-        // Load chest size from config
+        // Load config
         FileConfiguration config = getConfig();
         noticeMessage = config.getString("noticeMessage", "&a[공지] &r");
         // Save config
